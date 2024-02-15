@@ -9,7 +9,7 @@ export default function ResultComponent(){
 
   return(
     <div className="result">
-      <h1>Result</h1>
+      <h1 id="result" >Result</h1>
       <div className="score-section">
         <h3>You need more practice!</h3>
         <h1 className="score">Your score is {location.state.score}</h1>
